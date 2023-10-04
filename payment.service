@@ -4,10 +4,10 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-Environment=CART_HOST=cart.tmcdevops.online
-Environment=CART_PORT=8080
-Environment=USER_HOST=user.tmcdevops.online
-Environment=USER_PORT=8080
+Environment=CART_HOST=cart.app.tmcdevops.online
+Environment=CART_PORT=80
+Environment=USER_HOST=user.app.tmcdevops.online
+Environment=USER_PORT=80
 Environment=AMQP_HOST=rabbitmq.tmcdevops.online
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123

@@ -3,7 +3,7 @@ Description=Shipping Service
 
 [Service]
 User=roboshop
-Environment=CART_ENDPOINT=cart.tmcdevops.online:8080
+Environment=CART_ENDPOINT=cart.app.tmcdevops.online:80
 Environment=DB_HOST=mysql.tmcdevops.online
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
